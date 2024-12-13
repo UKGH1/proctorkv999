@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "proctorkv999"
+  annotations:
+    github.com/project-slug: UKGH1/azure_kv_tfmods
+    backstage.io/techdocs-ref: dir:.
+  title: AzResource - proctorkv999  # you can give any title
+  description: An Azure Key Vault Creation. # Change Description accordingly
+spec:
+  type: service
+  owner:  user:default/backstagecg
+  lifecycle: experimental

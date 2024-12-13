@@ -1,0 +1,31 @@
+site_name: "proctorkv999" 
+site_description: Azure Key Vault Template Documentation
+site_url: https://portal.azure.com
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+  palette:
+    primary: blue
+    accent: light-blue
+
+nav:
+  - Home: index.md
+  - Template Overview: template-overview.md
+  - Azure Resource Configuration:
+      - Key Vault: key-vault.md
+  - Deployment Guide: deployment-guide.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.details
+     
+plugins:
+  - techdocs-core
